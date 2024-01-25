@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rummikub - My Hobby</title>
+    <style>
+      h1,
+      h2,
+      footer,
+      .game-features {
+        text-align: center;
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #9d1613;
+      }
+      h2 {
+        font-weight: lighter;
+      }
+      body {
+        background: radial-gradient(
+          circle at 10.6% 22.1%,
+          rgb(206, 18, 18) 0%,
+          rgb(122, 21, 21) 100.7%
+        );
+        background-size: cover;
+      }
+      img {
+        max-width: 100%;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        background: white;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+      button:hover {
+        background: red;
+        cursor: pointer;
+      }
+      footer {
+        font-size: 20px;
+        color: #ffffff;
+        margin: 10px 0;
+      }
+      .contents {
+        max-width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+      }
+
+      .theme-button {
+        font-size: 12px;
+        background: black;
+        color: white;
+        padding: 4 10px;
+      }
+      .theme-button:hover {
+        color: black;
+        background: gray;
+      }
+      .rummikub-intro-picture {
+        border-radius: 10px;
+        width: 600px;
+        transition: all 150ms ease-in-out;
+      }
+      .rummikub-intro-picture:hover {
+        filter: contrast(50%);
+        transform: scale(1.3);
+      }
+      .grid {
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: all 150ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(0.5);
+      }
+      .dark {
+        background: black;
+        color: white;
+      }
+      .dark .contents {
+        background: rgba(255, 255, 255, 0.2);
+      }
+      .dark a {
+        color: #b12222;
+      }
+      .dark button {
+        background: white;
+        color: black;
+      }
+      .game-features {
+        padding: 0;
+        font-size: 14x;
+        font-weight: bold;
+        list-style-type: none;
+        margin-bottom: 20px;
+      }
+      .game-features li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="contents">
+      <h1>Rummikub - /ˈrʌmikjuːb/</h1>
+      <h2><em>My favorite hobby</em></h2>
+      <ul class="game-features">
+        <li>2 to 4 Players</li>
+        <li>All Ages</li>
+        <li>Competitive</li>
+        <li>Strategic</li>
+        <li>Engaging</li>
+        <li>Intriguing</li>
+      </ul>
+      <a href="https://en.wikipedia.org/wiki/Rummikub" target="_blank">
+        <img
+          src="https://t4.ftcdn.net/jpg/05/03/00/79/360_F_503007912_QPU08BJIenNgVWNAUZwy0I0xlcM1iAMI.jpg"
+          alt="vintage game"
+          class="rummikub-intro-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rummikub_Tiles.jpg/1280px-Rummikub_Tiles.jpg"
+          alt="playing Rummikub"
+        />
+
+        <img
+          src="https://i.etsystatic.com/9304684/r/il/195cad/1992513447/il_570xN.1992513447_9uk7.jpg"
+          alt="organize board"
+        />
+        <img
+          src="https://t4.ftcdn.net/jpg/00/11/75/71/360_F_11757117_CWiWYqiwyyOiSTT5F3C3OWCzfYwRxfIz.jpg"
+          alt="player view"
+        />
+
+        <img
+          src="https://media.istockphoto.com/id/480839207/photo/playing-in-rummikub-card-board-game.jpg?s=612x612&w=0&k=20&c=DW8kSmB3U3aY8S709rWBV8x_vIIu0zjqIQ2crIXRXho="
+          alt="play Rummikub"
+        />
+      </div>
+      <p>
+        Rummikub <strong>(/ˈrʌmikjuːb/</strong>, "rummy cube"[1]) is a
+        tile-based game for 2 to 4 players, combining elements of the card game
+        rummy and mahjong. There are 106 tiles in the game, including 104
+        numbered tiles (valued 1 to 13 in four different colors, two copies of
+        each) and two jokers.
+        <br />
+        <br />
+        Players have 14 or 16 tiles initially and take turns putting down tiles
+        from their racks into sets (groups or runs) of at least three, drawing a
+        tile if they cannot play. In the Sabra version (the most common and
+        popular), the first player to use all their tiles scores a positive
+        score based on the total of the other players' hands, while the losers
+        get negative scores. Variations of the game contain four jokers.
+        <br />
+        <br />
+        <strong
+          >An important feature of the game is that players can move and reuse
+          the tiles that have already been placed on the table.
+        </strong>
+        <br />
+        <br />
+        📖
+        <a href="https://en.wikipedia.org/wiki/Rummikub" target="_blank">
+          <strong> Read on Wikipedia </strong>
+        </a>
+      </p>
+      <button class="tip-button">Rummikub Game Tips</button>
+    </div>
+    <footer>Coded with 💓 by Kristina Palmer</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function updateButtonText(newText) {
+        let buttonText = document.querySelector(".tip-button");
+        buttonText.innerHTML = newText;
+      }
+
+      function skillQuestion() {
+        let userPlayed = prompt("Hi! Have you played Rummikub before?");
+        userPlayed = userPlayed.toLowerCase().trim();
+        return userPlayed === "yes";
+      }
+
+      function getUserInfo() {
+        alert(
+          "Thank you for visiting! Please provide your contact information."
+        );
+        let userName = prompt("What is your first name?");
+        userName = userName.trim();
+        let email = prompt("What is your email address?");
+
+        if (skillQuestion()) {
+          updateButtonText(
+            `Hi, ${userName}! Look in your inbox for advanced game tips!`
+          );
+        } else {
+          updateButtonText(
+            `Hi ${userName}! Look in your inbox for basic game tips!`
+          );
+        }
+      }
+      let tipsButton = document.querySelector(".tip-button");
+      tipsButton.addEventListener("click", getUserInfo);
+    </script>
+  </body>
+</html>
